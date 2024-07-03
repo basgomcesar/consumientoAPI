@@ -1,0 +1,145 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="./styles/responsive.css" />
+    <title>Alura Geek</title>
+  </head>
+  <body>
+    <main>
+      <header class="titulo-header">
+        <img src="/img/imagenAluraGeek.svg" alt="Imagen corazones" />
+        <h1>AluraGeek</h1>
+      </header>
+      <div class="contenedor-principal">
+        <section class="lista-productos">
+          <h2>MIS PRODUCTOS:</h2>
+          <div class="lista-productos-scroll">
+            <ul>
+              <li class="producto-item">
+                <img
+                  class="imagen-producto"
+                  src="https://www.costco.com.mx/medias/sys_master/products/h00/he3/28665714376734.jpg"
+                  alt="Produto 1"
+                />
+                <p>Produto 1</p>
+                <div class="precio-eliminar-contenedor">
+                  <p>$ 60000</p>
+                  <img
+                    class="icono-eliminar"
+                    src="/img/eliminarImagen.svg"
+                    alt="Icono elimiar producto"
+                  />
+                </div>
+              </li>
+              <li class="producto-item">
+                <img
+                  class="imagen-producto"
+                  src="https://www.costco.com.mx/medias/sys_master/products/h00/he3/28665714376734.jpg"
+                  alt="Produto 2"
+                />
+                <p>Produto 2</p>
+                <div class="precio-eliminar-contenedor">
+                    <p>$ 60000</p>
+                    <img
+                      class="icono-eliminar"
+                      src="/img/eliminarImagen.svg"
+                      alt="Icono elimiar producto"
+                    />
+                  </div>
+              </li>
+              <li class="producto-item">
+                <img
+                  class="imagen-producto"
+                  src="https://www.costco.com.mx/medias/sys_master/products/h00/he3/28665714376734.jpg"
+                  alt="Produto 3"
+                />
+                <p>Produto 3</p>
+                <div class="precio-eliminar-contenedor">
+                    <p>$ 60000</p>
+                    <img
+                      class="icono-eliminar"
+                      src="/img/eliminarImagen.svg"
+                      alt="Icono elimiar producto"
+                    />
+                  </div>
+              </li>
+              <li class="producto-item">
+                <img
+                  class="imagen-producto"
+                  src="https://www.costco.com.mx/medias/sys_master/products/h00/he3/28665714376734.jpg"
+                  alt="Produto 4"
+                />
+                <p>Produto 4</p>
+                <div class="precio-eliminar-contenedor">
+                    <p>$ 60000</p>
+                    <img
+                      class="icono-eliminar"
+                      src="/img/eliminarImagen.svg"
+                      alt="Icono elimiar producto"
+                    />
+                  </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="formulario-producto">
+          <h2>AGREGAR PRODUCTO:</h2>
+          <form action="/salvar-produto" method="post">
+            <input
+              class="input-element"
+              type="text"
+              id="nombre"
+              name="nome"
+              placeholder="Nombre..."
+              required
+            />
+            <input
+              class="input-element"
+              type="number"
+              id="precio"
+              name="precio"
+              placeholder="Precio..."
+              required
+            />
+            <input
+              class="input-element"
+              type="text"
+              id="imagen"
+              name="imagen"
+              placeholder="Imagen..."
+              required
+            />
+            <div class="botones-formulario">
+              <button type="submit">Enviar</button>
+              <button type="reset">Limpiar</button>
+            </div>
+          </form>
+        </section>
+      </div>
+      <footer>
+        <div class="footer-contenedor">
+          <img src="/img/imagenAluraGeek.svg" alt="Imagen corazones" />
+          <h1>AluraGeek</h1>
+        </div>
+        <p>DESARROLLADO POR CESAR BASILIO GOMEZ</p>
+        <p>ALURA LATAM- 2024</p>
+      </footer>
+    </main>
+    <script src="/js/main.js" type="module"></script>
+  </body>
+</html>

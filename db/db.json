@@ -1,0 +1,16 @@
+{
+    "productos": [
+      {
+        "id": 1,
+        "titulo": "Front-end vs. Back-end: ¡Descubre el lado perfecto para ti! #LuchaDev",
+        "precio": "3 mil visualizaciones",
+        "imagen": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+      },
+      {
+        "id": 2,
+        "titulo": " #LuchaDev",
+        "precio": "3 mil visualizaciones",
+        "imagen": "https://github.com/MonicaHillman/aluraplay-requisicoes/blob/main/img/logo.png?raw=true"
+      }
+    ]
+  }

@@ -1,0 +1,30 @@
+@media screen and (max-width: 526px) {
+    .titulo-header{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+  .contenedor-principal {
+    flex-direction: column-reverse;
+  }
+  .lista-productos{
+    width: 100%;
+  }
+  .formulario-producto{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+  }
+  .input-element{
+    width: 90%;
+    font-size: 20px;
+  }
+  .botones-formulario button{
+    width: 40%;
+    font-size: 20px;
+  }
+  .lista-productos-scroll{
+    margin: 0px;
+    padding: 0px;
+  }
+}
