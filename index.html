@@ -29,83 +29,21 @@
         <section class="lista-productos">
           <h2>MIS PRODUCTOS:</h2>
           <div class="lista-productos-scroll">
-            <ul>
-              <li class="producto-item">
-                <img
-                  class="imagen-producto"
-                  src="https://www.costco.com.mx/medias/sys_master/products/h00/he3/28665714376734.jpg"
-                  alt="Produto 1"
-                />
-                <p>Produto 1</p>
-                <div class="precio-eliminar-contenedor">
-                  <p>$ 60000</p>
-                  <img
-                    class="icono-eliminar"
-                    src="/img/eliminarImagen.svg"
-                    alt="Icono elimiar producto"
-                  />
-                </div>
-              </li>
-              <li class="producto-item">
-                <img
-                  class="imagen-producto"
-                  src="https://www.costco.com.mx/medias/sys_master/products/h00/he3/28665714376734.jpg"
-                  alt="Produto 2"
-                />
-                <p>Produto 2</p>
-                <div class="precio-eliminar-contenedor">
-                    <p>$ 60000</p>
-                    <img
-                      class="icono-eliminar"
-                      src="/img/eliminarImagen.svg"
-                      alt="Icono elimiar producto"
-                    />
-                  </div>
-              </li>
-              <li class="producto-item">
-                <img
-                  class="imagen-producto"
-                  src="https://www.costco.com.mx/medias/sys_master/products/h00/he3/28665714376734.jpg"
-                  alt="Produto 3"
-                />
-                <p>Produto 3</p>
-                <div class="precio-eliminar-contenedor">
-                    <p>$ 60000</p>
-                    <img
-                      class="icono-eliminar"
-                      src="/img/eliminarImagen.svg"
-                      alt="Icono elimiar producto"
-                    />
-                  </div>
-              </li>
-              <li class="producto-item">
-                <img
-                  class="imagen-producto"
-                  src="https://www.costco.com.mx/medias/sys_master/products/h00/he3/28665714376734.jpg"
-                  alt="Produto 4"
-                />
-                <p>Produto 4</p>
-                <div class="precio-eliminar-contenedor">
-                    <p>$ 60000</p>
-                    <img
-                      class="icono-eliminar"
-                      src="/img/eliminarImagen.svg"
-                      alt="Icono elimiar producto"
-                    />
-                  </div>
-              </li>
+            <ul data-lista>
+    
             </ul>
           </div>
         </section>
         <section class="formulario-producto">
           <h2>AGREGAR PRODUCTO:</h2>
-          <form action="/salvar-produto" method="post">
+          <form  data-formulario>
             <input
               class="input-element"
               type="text"
               id="nombre"
-              name="nome"
+              name="nombre"
               placeholder="Nombre..."
+              data-titulo
               required
             />
             <input
@@ -114,6 +52,7 @@
               id="precio"
               name="precio"
               placeholder="Precio..."
+              data-precio
               required
             />
             <input
@@ -122,6 +61,7 @@
               id="imagen"
               name="imagen"
               placeholder="Imagen..."
+              data-imagen
               required
             />
             <div class="botones-formulario">
